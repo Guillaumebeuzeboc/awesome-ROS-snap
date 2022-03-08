@@ -34,8 +34,8 @@ A curated list of awesome ROS{2} snap documentation and resources.
 - [ROS2 talker-listener](https://github.com/snapcraft-docs/ros2-talker-listener) - ROS2 Dashing core18 talker-listener from ROS2 demos
 - [ROS talker-listener core20](https://github.com/snapcraft-docs/ros-talker-listener-core20) - ROS1 Noetic core20 talker-listener from ros-tutorials
 - [ROS2 talker-listener core20](https://github.com/snapcraft-docs/ros2-talker-listener-core20) - ROS2 Foxy core20 talker-listener from ROS2 demos
-- [Snapped ROS1 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg) - Snap ROS1 package from source [core20](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/main) and [core18](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/core18)
-- [Snapped ROS2 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg) - Snap ROS2 package from source [core20](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/main) and [core18](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/core18)
+- [Snapped ROS1 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg) - Snap ROS1 package from sources. [core20](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/main) and [core18](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/core18)
+- [Snapped ROS2 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg) - Snap ROS2 package from sources. [core20](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/main) and [core18](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/core18)
 ### Advanced
 - [Snapped ROS2 talker listener components](https://github.com/Guillaumebeuzeboc/snapped_ros2_talker_listener_components) - ROS2 talker listener components from two different snaps
 - [Turtlebot snap](https://github.com/canonical/turtlebot3c-snap) - Turtlebot3c packaged as a snap
