@@ -12,6 +12,7 @@ A curated list of awesome ROS{2} snap documentation and resources.
   - [Examples](#examples)
     - [Basics](#basics)
     - [Advanced](#advanced)
+  - [ROS on snapcraft.io](#ros-on-snapcraftio)
 <!--toc-end-->
 
 ## Documentation
@@ -41,3 +42,8 @@ A curated list of awesome ROS{2} snap documentation and resources.
 - [Turtlebot snap](https://github.com/canonical/turtlebot3c-snap) - Turtlebot3c packaged as a snap
 - [Rosshow snap](https://github.com/dheera/rosshow/blob/main/snap/snapcraft.yaml) - Rosshow ROS1 package as a snap
 - [Rosboard snap](https://github.com/dheera/rosboard/pull/83) - Rosboard ROS package as a snap (not merged yet)
+## ROS on snapcraft.io
+- [PlotJuggler](https://snapcraft.io/plotjuggler) - PlotJuggler is a tool to visualize time series that is fast, powerful and intuitive
+- [Micro ros agent](https://snapcraft.io/micro-ros-agent) - ROS 2 package using Micro XRCE-DDS Agent
+- [QtCreator ROS](https://snapcraft.io/qtcreator-ros) - Qt Creator with the ROS/ROS2 plugin
+- [Webots](https://snapcraft.io/webots) - Open source and multi-platform desktop application used to simulate robots
