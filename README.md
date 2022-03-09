@@ -29,6 +29,7 @@ A curated list of awesome ROS{2} snap documentation and resources.
 - [how to build a snap using ROS2 Foxy](https://snapcraft.io/blog/how-to-build-a-snap-using-ros-2-foxy) - Build a ROS2 Foxy snap on core20
 - [Distributing a ROS system among multiple snaps](https://snapcraft.io/blog/distributing-a-ros-system-among-multiple-snaps) - [outdated] For core16 only, but the idea is here
 - [Speed up your ROS snap builds](https://snapcraft.io/blog/speed-up-your-ros-snap-builds) - Build time dependencies between ROS snaps
+- [Docker vs snap container for ROS](https://ubuntu.com/blog/ros-docker) - 6 reasons to use snap of docker for your ROS robot
 ## Examples
 ### Basics
 - [ROS talker-listener](https://github.com/snapcraft-docs/ros-talker-listener) - ROS1 Melodic core18 talker-listener from ros-tutorials
