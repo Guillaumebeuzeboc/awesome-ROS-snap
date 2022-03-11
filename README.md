@@ -40,6 +40,7 @@ A curated list of awesome ROS{2} snap documentation and resources.
 - [Snapped ROS2 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg) - Snap ROS2 package from sources. [core20](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/main) and [core18](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/core18)
 ### Advanced
 - [Snapped ROS2 talker listener components](https://github.com/Guillaumebeuzeboc/snapped_ros2_talker_listener_components) - ROS2 talker listener components from two different snaps
+- [Snapped rosinstall](https://github.com/Guillaumebeuzeboc/snapped_ros1_rosinstall) - Snap package pulled from rosinstall with core20
 - [Turtlebot snap](https://github.com/canonical/turtlebot3c-snap) - Turtlebot3c packaged as a snap
 - [Rosshow snap](https://github.com/dheera/rosshow/blob/main/snap/snapcraft.yaml) - Rosshow ROS1 package as a snap
 - [Rosboard snap](https://github.com/dheera/rosboard/pull/83) - Rosboard ROS package as a snap (not merged yet)
