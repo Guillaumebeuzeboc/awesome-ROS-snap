@@ -1,51 +1,107 @@
-# Awesome-ROS-snap
-A curated list of awesome ROS{2} snap documentation and resources.
+# Awesome Robot Operating System (ROS) Snap [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<!--toc-->
+[<img src="https://cdn.iconscout.com/icon/free/png-256/snapcraft-3521718-2945162.png" align="right" width="26">](https://snapcraft.io/about)
 
-## Table of index
-- [Awesome-ROS-snap](#awesome-ros-snap)
-  - [Table of index](#table-of-index)
-  - [Documentation](#documentation)
-    - [Snapcraft documentation](#snapcraft-documentation)
-    - [Blog posts](#blog-posts)
+[<img src="https://raw.githubusercontent.com/fkromer/awesome-ros2/master/ros_logo.svg?sanitize=true" align="right" width="86">](https://www.ros.org/blog/getting-started/)
+
+> A curated list of awesome [Robot Operating System](https://www.ros.org/) (ROS 1 & 2) [snap](https://snapcraft.io) resources.
+
+The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications.
+From drivers to state-of-the-art algorithms,
+and with powerful developer tools,
+ROS has what you need for your next robotics project.
+And it's all open source.
+
+Snaps are app packages for desktop, cloud and IoT that are easy to install,
+secure, cross‐platform and dependency‐free.
+Snaps are discoverable and installable from the Snap Store,
+the app store for Linux with an audience of millions.
+And they come with ROS integration.
+
+## Contents
+
+- [ROS snaps](#ros-snaps)
+  - [Applications](#applications)
+  - [Tools](#tools)
+- [Robotics snaps](#robotics-snaps)
+- [Documentation](#documentation)
+  - [Snapcraft documentation](#snapcraft-documentation)
+  - [Blog posts](#blog-posts)
+  - [Papers](#papers)
   - [Examples](#examples)
-    - [Basics](#basics)
-    - [Advanced](#advanced)
-  - [ROS on snapcraft.io](#ros-on-snapcraftio)
-<!--toc-end-->
+- [Community](#community)
+- [Operating systems](#operating-systems)
+
+## ROS snaps
+
+### Applications
+
+- [micro-ros-agent](https://snapcraft.io/micro-ros-agent) - Bridge between micro-ROS applications and ROS 2.
+- [rosshow](https://snapcraft.io/rosshow) - Visualize ROS topics in a terminal with ASCII art.
+- [rosboard](https://snapcraft.io/rosboard) - Turn your robot into a web server to visualize ROS topics.
+- [turtlebot3c](https://snapcraft.io/turtlebot3c) - Turtlebot3 as a snap!
+
+### Tools
+
+- [qtcreator-ros](https://snapcraft.io/qtcreator-ros) - Qt Creator with ROS plugin.
+- [tesseract-ignition](https://snapcraft.io/tesseract-ignition) - This package provides GUI Tools for the Tesseract Motion Planning libraries.
+
+## Robotics snaps
+
+- [Gazebo](https://snapcraft.io/gazebo) - Iterate quickly on design concepts and control strategies with Ignition's rich suite of tools, libraries, and cloud services.
+- [Micro XRCE-DDS Agent](https://snapcraft.io/micro-xrce-dds-agent) - Bridge between Micro XRCE-DDS clients and DDS.
+- [PlotJuggler](https://snapcraft.io/plotjuggler) - The Time Series Visualization Tool that you Deserve.
+- [Webots](https://snapcraft.io/webots) - Webots is a free and open-source 3D robot simulator.
 
 ## Documentation
+
 ### Snapcraft documentation
-- [ROS Applications](https://snapcraft.io/docs/ros-applications) - Snap an external ROS1 package
-- [ROS2 Applications](https://snapcraft.io/docs/ros2-applications) - Snap an external ROS2
-- [Catkin plugin](https://snapcraft.io/docs/catkin-plugin) - Catkin plugin for ROS1
-- [Catkin-tools plugin](https://snapcraft.io/docs/catkin-tools-plugin) - Catkin-tools plugin for ROS1
-- [Colcon plugin](https://snapcraft.io/docs/the-colcon-plugin) - Colcon plugin for ROS2
-- [ROS1 extension](https://snapcraft.io/docs/ros1-extension) - ROS1 Noetic extension for core20
-- [ROS2 extension](https://snapcraft.io/docs/ros2-extension) - ROS2 Foxy extension for core20
-- [Packing your ROS1 project as a snap](http://wiki.ros.org/ROS/Tutorials/Packaging%20your%20ROS%20project%20as%20a%20snap) - Pack a ROS1 Kinetic (core16) project as a snap
+
+- [Snaps for Robotics applications](https://snapcraft.io/docs/robotics) - General introduction.
+- [Getting started - ROS](https://snapcraft.io/docs/ros-applications) - How to snap a ROS package.
+- [Getting started - ROS 2](https://snapcraft.io/docs/ros2-applications) - How to snap a ROS 2 application.
+- [ROS FAQ & Troubleshooting](https://snapcraft.io/docs/ros-troubleshooting) - Reference ROS and ROS 2 snap common questions and troubleshooting.
+- [Packaging your ROS project as a snap](http://wiki.ros.org/ROS/Tutorials/Packaging%20your%20ROS%20project%20as%20a%20snap) - ROS wiki.
+- [Packaging your ROS 2 application as a snap](https://docs.ros.org/en/foxy/Tutorials/Packaging-your-ROS-2-application-as-a-snap.html) - ROS 2 documentation.
+- [Snapcraft Catkin plugin](https://snapcraft.io/docs/catkin-plugin) - Snapcraft Catkin plugin documentation.
+- [Snapcraft Catkin-tools plugin](https://snapcraft.io/docs/catkin-tools-plugin) - Snapcraft Catkin-tools plugin documentation.
+- [Snapcraft Colcon plugin](https://snapcraft.io/docs/the-colcon-plugin) - Snapcraft Colcon plugin documentation.
+- [Snapcraft ROS Noetic extension](https://snapcraft.io/docs/ros1-extension) - Snapcraft ROS Noetic extension.
+- [Snapcraft ROS 2 Foxy extension](https://snapcraft.io/docs/ros2-extension) - Snapcraft ROS 2 Foxy extension.
+
 ### Blog posts
-- [how to build a snap using ROS2 Foxy](https://snapcraft.io/blog/how-to-build-a-snap-using-ros-2-foxy) - Build a ROS2 Foxy snap on core20
-- [Distributing a ROS system among multiple snaps](https://snapcraft.io/blog/distributing-a-ros-system-among-multiple-snaps) - [outdated] For core16 only, but the idea is here
-- [Speed up your ROS snap builds](https://snapcraft.io/blog/speed-up-your-ros-snap-builds) - Build time dependencies between ROS snaps
-- [Docker vs snap container for ROS](https://ubuntu.com/blog/ros-docker) - 6 reasons to use snap of docker for your ROS robot
-## Examples
-### Basics
-- [ROS talker-listener](https://github.com/snapcraft-docs/ros-talker-listener) - ROS1 Melodic core18 talker-listener from ros-tutorials
-- [ROS2 talker-listener](https://github.com/snapcraft-docs/ros2-talker-listener) - ROS2 Dashing core18 talker-listener from ROS2 demos
-- [ROS talker-listener core20](https://github.com/snapcraft-docs/ros-talker-listener-core20) - ROS1 Noetic core20 talker-listener from ros-tutorials
-- [ROS2 talker-listener core20](https://github.com/snapcraft-docs/ros2-talker-listener-core20) - ROS2 Foxy core20 talker-listener from ROS2 demos
-- [Snapped ROS1 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg) - Snap ROS1 package from sources. [core20](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/main) and [core18](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/core18)
-- [Snapped ROS2 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg) - Snap ROS2 package from sources. [core20](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/main) and [core18](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/core18)
-### Advanced
-- [Snapped ROS2 talker listener components](https://github.com/Guillaumebeuzeboc/snapped_ros2_talker_listener_components) - ROS2 talker listener components from two different snaps
-- [Snapped rosinstall](https://github.com/Guillaumebeuzeboc/snapped_ros1_rosinstall) - Snap package pulled from rosinstall with core20
-- [Turtlebot snap](https://github.com/canonical/turtlebot3c-snap) - Turtlebot3c packaged as a snap
-- [Rosshow snap](https://github.com/dheera/rosshow/blob/main/snap/snapcraft.yaml) - Rosshow ROS1 package as a snap
-- [Rosboard snap](https://github.com/dheera/rosboard/pull/83) - Rosboard ROS package as a snap (not merged yet)
-## ROS on snapcraft.io
-- [PlotJuggler](https://snapcraft.io/plotjuggler) - PlotJuggler is a tool to visualize time series that is fast, powerful and intuitive
-- [Micro ros agent](https://snapcraft.io/micro-ros-agent) - ROS 2 package using Micro XRCE-DDS Agent
-- [QtCreator ROS](https://snapcraft.io/qtcreator-ros) - Qt Creator with the ROS/ROS2 plugin
-- [Webots](https://snapcraft.io/webots) - Open source and multi-platform desktop application used to simulate robots
+
+- ["Keep enterprise ROS robots up-to-date with snaps"](https://ubuntu.com/blog/keep-enterprise-ros-robots-up-to-date-with-snaps)
+- ["How to build a snap using ROS2 Foxy"](https://snapcraft.io/blog/how-to-build-a-snap-using-ros-2-foxy)
+- ["How to set up TurtleBot3 in minutes with snaps"](https://ubuntu.com/blog/how-to-set-up-turtlebot3-in-minutes-with-snaps) (part [two](https://ubuntu.com/blog/how-to-set-up-turtlebot3-in-minutes-with-snaps-2))
+- ["ROS Docker; 6 reasons why they are not a good fit"](https://ubuntu.com/blog/ros-docker)
+
+### Papers
+
+- ["Docker & ROS: When all you have is a hammer, everything looks like a nail"](https://ubuntu.com/engage/dockerandros?utm_medium=blog&utm_campaign=7014K000000UWJn) - A whitepaper.
+
+### Examples
+
+#### Basics
+
+- [ROS talker-listener](https://github.com/snapcraft-docs/ros-talker-listener) - ROS Melodic (core18) talker-listener from ros-tutorials.
+- [ROS 2 talker-listener](https://github.com/snapcraft-docs/ros2-talker-listener) - ROS2 Dashing (core18) talker-listener from ROS 2 demos.
+- [ROS talker-listener](https://github.com/snapcraft-docs/ros-talker-listener-core20) - ROS1 Noetic (core20) talker-listener from ros-tutorials.
+- [ROS2 talker-listener](https://github.com/snapcraft-docs/ros2-talker-listener-core20) - ROS2 Foxy (core20) talker-listener from ROS 2 demos.
+- [Snapped ROS pkg](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg) - Snap ROS package from sources. [Melodic - core18](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/core18) & [Noetic - core20](https://github.com/Guillaumebeuzeboc/snapped_ros1_pkg/tree/main).
+- [Snapped ROS 2 pkg](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg) - Snap ROS2 package from sources. [Dashing - core18](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/core18) & [Foxy - core20](https://github.com/Guillaumebeuzeboc/snapped_ros2_pkg/tree/main).
+
+#### Advanced
+
+- [Snapped ROS 2 talker listener components](https://github.com/Guillaumebeuzeboc/snapped_ros2_talker_listener_components) - ROS 2 talker listener components from two different snaps.
+- [Snapped rosinstall](https://github.com/Guillaumebeuzeboc/snapped_ros1_rosinstall) - Snap ROS Noetic (core20) packages pulled from a rosinstall file.
+
+## Community
+
+- [Snapcraft forum](https://forum.snapcraft.io/search?q=ROS)
+
+## Operating systems
+
+- [Ubuntu Desktop](https://ubuntu.com/desktop) - The open source Ubuntu desktop operating system powers millions of PCs and laptops around the world.
+- [Ubuntu Server](https://ubuntu.com/server) - A lightweight Ubuntu without desktop designed for the cloud.
+- [Ubuntu Core](https://ubuntu.com/core) - An operating system designed for IoT & Robotics.
