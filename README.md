@@ -40,6 +40,7 @@ And they come with ROS integration.
 - [rosshow](https://snapcraft.io/rosshow) - Visualize ROS topics in a terminal with ASCII art.
 - [rosboard](https://snapcraft.io/rosboard) - Turn your robot into a web server to visualize ROS topics.
 - [turtlebot3c](https://snapcraft.io/turtlebot3c) - Turtlebot3 as a snap!
+- [foxglove-studio](https://snapcraft.io/foxglove-studio) - Visualization and debugging tooling for your robotics data.
 
 ### Tools
 
