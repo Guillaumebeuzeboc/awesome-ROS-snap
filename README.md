@@ -76,6 +76,7 @@ And they come with ROS integration.
 - ["How to build a snap using ROS2 Foxy"](https://snapcraft.io/blog/how-to-build-a-snap-using-ros-2-foxy)
 - ["How to set up TurtleBot3 in minutes with snaps"](https://ubuntu.com/blog/how-to-set-up-turtlebot3-in-minutes-with-snaps) (part [two](https://ubuntu.com/blog/how-to-set-up-turtlebot3-in-minutes-with-snaps-2))
 - ["ROS Docker; 6 reasons why they are not a good fit"](https://ubuntu.com/blog/ros-docker)
+- ["How to use ROS 2 shared memory in snaps"](https://ubuntu.com/blog/how-to-use-ros-2-shared-memory-in-snaps)
 
 ### Papers
 
