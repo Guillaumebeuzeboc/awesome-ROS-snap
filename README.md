@@ -37,6 +37,7 @@ And they come with ROS integration.
 ### Applications
 
 - [micro-ros-agent](https://snapcraft.io/micro-ros-agent) - Bridge between micro-ROS applications and ROS 2.
+- [ros2-foxy-rosbag](https://snapcraft.io/ros2-foxy-rosbag) - A portable ROS2 Foxy toolkit, to provide the `ros2 bag` utility anywhere.
 - [rosshow](https://snapcraft.io/rosshow) - Visualize ROS topics in a terminal with ASCII art.
 - [rosboard](https://snapcraft.io/rosboard) - Turn your robot into a web server to visualize ROS topics.
 - [turtlebot3c](https://snapcraft.io/turtlebot3c) - Turtlebot3 as a snap!
