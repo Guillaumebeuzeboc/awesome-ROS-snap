@@ -85,6 +85,8 @@ And they come with ROS integration.
 
 ### Examples
 
+- [ubuntu-robotics/ros-snaps-examples](https://github.com/ubuntu-robotics/ros-snaps-examples) - Various examples of ROS and ROS 2 snaps from the Canonical robotics team.
+
 #### Basics
 
 - [ROS talker-listener](https://github.com/snapcraft-docs/ros-talker-listener) - ROS Melodic (core18) talker-listener from ros-tutorials.
