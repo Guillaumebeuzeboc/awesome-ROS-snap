@@ -19,21 +19,16 @@ the app store for Linux with an audience of millions.
 And they come with ROS integration.
 
 ## Contents
-
-- [Awesome Robot Operating System (ROS) Snap ](#awesome-robot-operating-system-ros-snap-)
-  - [Contents](#contents)
-  - [Robotics snaps](#robotics-snaps)
-    - [Applications](#applications)
-    - [Tools](#tools)
-  - [Documentation](#documentation)
-    - [Snapcraft documentation](#snapcraft-documentation)
-    - [Blog posts](#blog-posts)
-    - [Papers](#papers)
-    - [Examples](#examples)
-      - [Basics](#basics)
-      - [Advanced](#advanced)
-  - [Community](#community)
-  - [Operating systems](#operating-systems)
+- [Robotics snaps](#robotics-snaps)
+  - [Applications](#applications)
+  - [Tools](#tools)
+- [Documentation](#documentation)
+  - [Snapcraft documentation](#snapcraft-documentation)
+  - [Blog posts](#blog-posts)
+  - [Papers](#papers)
+  - [Examples](#examples)
+- [Community](#community)
+- [Operating systems](#operating-systems)
 
 ## Robotics snaps
 
@@ -72,10 +67,10 @@ And they come with ROS integration.
 - [Snapcraft Colcon plugin](https://snapcraft.io/docs/the-colcon-plugin) - Snapcraft Colcon plugin documentation.
 - [Snapcraft ROS Noetic extension](https://snapcraft.io/docs/ros1-extension) - Snapcraft ROS Noetic extension.
 - [Snapcraft ROS 2 Foxy extension](https://snapcraft.io/docs/ros2-extension) - Snapcraft ROS 2 Foxy extension.
-- [Developer guide - Part 1: Distributing ROS apps with snaps](https://ubuntu.com/robotics/docs/ros-deployment-with-snaps-part-1) -  Package a ROS application tutorial (part 1)
-- [Developer guide - Part 2: Distributing ROS apps with snaps](https://ubuntu.com/robotics/docs/ros-deployment-with-snaps-part-2) -  Package a ROS application tutorial (part 2)
-- [ROS snapcraft How-to-guides](https://ubuntu.com/robotics/docs/how-to-guides) - A collection of official ROS snapcraft how to guides
-- [ROS snaps references](https://ubuntu.com/robotics/docs/explanation#heading--snaps) - A collection of official ROS snaps references
+- [Developer guide - Part 1: Distributing ROS apps with snaps](https://ubuntu.com/robotics/docs/ros-deployment-with-snaps-part-1) -  Package a ROS application tutorial (part 1).
+- [Developer guide - Part 2: Distributing ROS apps with snaps](https://ubuntu.com/robotics/docs/ros-deployment-with-snaps-part-2) -  Package a ROS application tutorial (part 2).
+- [ROS snapcraft How-to-guides](https://ubuntu.com/robotics/docs/how-to-guides) - A collection of official ROS snapcraft how to guides.
+- [ROS snaps references](https://ubuntu.com/robotics/docs/explanation#heading--snaps) - A collection of official ROS snaps references.
 
 ### Blog posts
 
@@ -88,7 +83,7 @@ And they come with ROS integration.
 - [Getting started with ROS security scanning](https://ubuntu.com/blog/getting-started-with-ros-security-scanning)
 - [Top 10 robotics snaps in the Snap Store](https://ubuntu.com/blog/top-10-robotics-snaps-p1)
 - [Snapping out of Docker: a robotics guide for migrating from Docker to snap](https://ubuntu.com/blog/snapping-out-of-docker)
-- [Optimize your ROS snap - part 1](https://ubuntu.com/blog/optimise-your-ros-snap-part-1), [part 2](https://ubuntu.com/blog/optimise-your-ros-snap-part-2), [part 3](https://ubuntu.com/blog/optimise-your-ros-snap-part-3), [part 4](https://ubuntu.com/blog/optimise-your-ros-snap-part-4), [part 5](https://ubuntu.com/blog/optimise-your-ros-snap-part-5) and [part 6](https://ubuntu.com/blog/optimise-your-ros-snap-part-6)
+- [Optimize your ROS snap - part 1](https://ubuntu.com/blog/optimise-your-ros-snap-part-1) - [part 2](https://ubuntu.com/blog/optimise-your-ros-snap-part-2) - [part 3](https://ubuntu.com/blog/optimise-your-ros-snap-part-3) - [part 4](https://ubuntu.com/blog/optimise-your-ros-snap-part-4) - [part 5](https://ubuntu.com/blog/optimise-your-ros-snap-part-5) - [part 6](https://ubuntu.com/blog/optimise-your-ros-snap-part-6)
 - [ROS architectures with snaps](https://ubuntu.com/blog/ros-architectures-with-snaps)
 
 ### Papers
